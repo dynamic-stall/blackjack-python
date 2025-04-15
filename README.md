@@ -24,11 +24,6 @@ conda activate blackjack
 ```
 - (Refer to my [aws-iam-credential-report](https://github.com/dynamic-stall/aws-iam-credential-report/) repo for Miniconda installation assistance, if Python is not present on your system.)
 
-3. Install required packages:
-```bash
-pip install -r requirements.txt
-```
-
 ## Project Structure
 ```
 blackjack-python/
