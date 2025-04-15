@@ -17,9 +17,9 @@ git clone https://github.com/dynamic-stall/blackjack-python.git
 cd blackjack-python
 ```
 
-2. Create and activate a new conda environment (optional but recommended):
+2. Create and activate the conda environment from the provided file:
 ```bash
-conda create -n blackjack python=3.8
+conda env create -f environment.yml
 conda activate blackjack
 ```
 - (Refer to my [aws-iam-credential-report](https://github.com/dynamic-stall/aws-iam-credential-report/) repo for Miniconda installation assistance, if Python is not present on your system.)
@@ -33,14 +33,14 @@ pip install -r requirements.txt
 ```
 blackjack-python/
 ├── __init__.py
-├── constants.py        # Game constants (cards, chips)
-├── card_components.py  # Card, Deck, and Hand classes
-├── players.py          # Player and Dealer classes
 ├── account.py          # Account management for betting
+├── card_components.py  # Card, Deck, and Hand classes
+├── constants.py        # Game constants (cards, chips)
+├── environment.yml     # Conda environment configuration
 ├── game.py             # Main game logic
 ├── main.py             # Entry point
-├── README.md           # (This file)
-└── requirements.txt    # Required packages
+├── players.py          # Player and Dealer classes
+└── README.md           # (This file)
 ```
 
 ## How to Play
