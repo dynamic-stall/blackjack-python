@@ -62,7 +62,7 @@ python3 main.py
    - Initial two cards totaling 21 (Blackjack)
 
 ## Note
-This game uses pandas for transaction tracking. Make sure you have it installed via the ```requirements.txt``` file.
+This game uses pandas for transaction tracking. Make sure you have it installed via the ```environment.yml``` file.
 
 ## Future Improvements (at some point...)
 - Multiple player support
