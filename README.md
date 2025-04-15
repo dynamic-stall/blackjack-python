@@ -11,7 +11,7 @@ A simple command-line blackjack game implemented in Python.
 
 ## Installation
 
-1. Clone the python-portfolio repository:
+1. Clone this repository:
 ```bash
 git clone https://github.com/dynamic-stall/blackjack-python.git
 cd blackjack-python
