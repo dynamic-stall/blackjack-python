@@ -1,4 +1,4 @@
-from .game import BlackjackGame
+from game import BlackjackGame
 import time
 
 def main():

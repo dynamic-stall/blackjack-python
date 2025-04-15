@@ -1,5 +1,5 @@
 from typing import List
-from .card_components import Card
+from card_components import Card
 
 
 class Player:

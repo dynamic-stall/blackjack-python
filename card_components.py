@@ -1,6 +1,6 @@
 from typing import List
 from random import shuffle
-from .constants import suits, ranks, values, rank_viz, suit_viz
+from constants import suits, ranks, values, rank_viz, suit_viz
 
 
 class Card:

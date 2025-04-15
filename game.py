@@ -1,7 +1,7 @@
-from .constants import chips
-from .card_components import Deck, Hand
-from .players import Player, Dealer
-from .account import Account
+from constants import chips
+from card_components import Deck, Hand
+from players import Player, Dealer
+from account import Account
 import time
 
 
