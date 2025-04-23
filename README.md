@@ -2,12 +2,18 @@
 
 A simple command-line blackjack game implemented in Python.
 
+![blackjack-terminal-scrnshot](https://github.com/user-attachments/assets/8f869e9f-a8d4-4747-8904-b84d039fecb6)
+
+<br>
+
 ## Features
 - Single-player gameplay against the dealer
 - Visual card representation in the terminal
 - Chip-based betting system (white $1, red $5, green $25, black $100, purple $500, orange $1000)
 - Account balance tracking with transaction history
 - Interactive gameplay with options to hit, stand, or double down
+
+<br>
 
 ## Installation
 
@@ -24,6 +30,8 @@ conda activate blackjack
 ```
 - (Refer to my [aws-iam-credential-report](https://github.com/dynamic-stall/aws-iam-credential-report/) repo for Miniconda installation assistance, if Python is not present on your system.)
 
+<br>
+
 ## Project Structure
 ```
 blackjack-python/
@@ -37,6 +45,8 @@ blackjack-python/
 ├── players.py          # Player and Dealer classes
 └── README.md           # (This file)
 ```
+
+<br>
 
 ## How to Play
 
@@ -63,6 +73,8 @@ python3 main.py
 
 ## Note
 This game uses pandas for transaction tracking. Make sure you have it installed via the ```environment.yml``` file.
+
+<br>
 
 ## Future Improvements (at some point...)
 - Multiple player support
